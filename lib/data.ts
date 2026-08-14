@@ -86,7 +86,7 @@ export const projects = [
     description:
       "An agentic RAG financial assistant for Ghana's formal and informal economy — Groq-hosted Llama 3.3, local embeddings, ChromaDB, DuckDuckGo search, and a Streamlit chat UI.",
     tags: ["Python", "RAG", "Groq", "ChromaDB", "Streamlit"],
-    demo: null,
+    demo: "https://sika-ai-ecru.vercel.app/",
     github: "https://github.com/Lord-Zylen/Sika-AI",
     accent: "from-emerald-500/30 to-green-900/40",
   },
@@ -95,7 +95,7 @@ export const projects = [
     description:
       "An AI-powered business management platform for SMEs in Ghana — inventory, sales, expenses, customers, suppliers, and a LangGraph AI consultant that analyzes your business data and gives recommendations.",
     tags: ["React", "FastAPI", "MongoDB", "LangGraph", "Firebase"],
-    demo: null,
+    demo: "https://smart-biz-seven.vercel.app/",
     github: "https://github.com/Lord-Zylen/SmartBiz",
     accent: "from-teal-500/30 to-cyan-900/40",
   },
