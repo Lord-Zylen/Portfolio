@@ -1,5 +1,8 @@
+import Image from "next/image";
 import Section from "@/components/Section";
 import { projects } from "@/lib/data";
+
+const BASE_PATH = "/Portfolio";
 
 export default function Projects() {
   return (
@@ -10,10 +13,19 @@ export default function Projects() {
             key={project.title}
             className="group flex flex-col overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03] transition-colors hover:border-emerald-400/30"
           >
-            <div
-              aria-hidden
-              className={`h-40 bg-gradient-to-br ${project.accent}`}
-            />
+            <div className="relative h-40 overflow-hidden bg-zinc-900">
+              <div
+                aria-hidden
+                className={`absolute inset-0 bg-gradient-to-br ${project.accent}`}
+              />
+              <Image
+                src={`${BASE_PATH}${project.preview}`}
+                alt={`Preview of ${project.title}`}
+                fill
+                sizes="(max-width: 640px) 100vw, 50vw"
+                className="relative object-cover object-top transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
             <div className="flex flex-1 flex-col p-6">
               <h3 className="text-lg font-semibold text-zinc-100 transition-colors group-hover:text-emerald-400">
                 {project.title}

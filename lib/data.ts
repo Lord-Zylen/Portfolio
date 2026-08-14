@@ -88,6 +88,7 @@ export const projects = [
     tags: ["Python", "RAG", "Groq", "ChromaDB", "Streamlit"],
     demo: "https://sika-ai-ecru.vercel.app/",
     github: "https://github.com/Lord-Zylen/Sika-AI",
+    preview: "/previews/sika-ai.jpg",
     accent: "from-emerald-500/30 to-green-900/40",
   },
   {
@@ -97,6 +98,7 @@ export const projects = [
     tags: ["React", "FastAPI", "MongoDB", "LangGraph", "Firebase"],
     demo: "https://smart-biz-seven.vercel.app/",
     github: "https://github.com/Lord-Zylen/SmartBiz",
+    preview: "/previews/smartbiz.jpg",
     accent: "from-teal-500/30 to-cyan-900/40",
   },
   {
@@ -106,6 +108,7 @@ export const projects = [
     tags: ["React", "Vite", "Context API", "Charts"],
     demo: null,
     github: "https://github.com/Lord-Zylen/Plant-Scheduler",
+    preview: "/previews/plant-scheduler.jpg",
     accent: "from-emerald-500/30 to-teal-900/40",
   },
   {
@@ -115,6 +118,7 @@ export const projects = [
     tags: ["React", "Vite", "CSS"],
     demo: null,
     github: "https://github.com/Lord-Zylen/React-horizon",
+    preview: "/previews/react-horizons.jpg",
     accent: "from-indigo-500/30 to-blue-900/40",
   },
   {
@@ -124,6 +128,7 @@ export const projects = [
     tags: ["React", "Vite", "CSS"],
     demo: null,
     github: "https://github.com/Lord-Zylen/react-pizza",
+    preview: "/previews/react-pizza.jpg",
     accent: "from-amber-500/30 to-orange-900/40",
   },
   {
@@ -133,6 +138,7 @@ export const projects = [
     tags: ["React", "Vite", "CRUD"],
     demo: null,
     github: "https://github.com/Lord-Zylen/Contact-List",
+    preview: "/previews/contact-list.jpg",
     accent: "from-fuchsia-500/30 to-purple-900/40",
   },
   {
@@ -142,6 +148,7 @@ export const projects = [
     tags: ["React", "Firebase", "Zustand"],
     demo: null,
     github: "https://github.com/Lord-Zylen/Firebase-week-1-2",
+    preview: "/previews/firebase-crud.jpg",
     accent: "from-sky-500/30 to-cyan-900/40",
   },
   {
@@ -151,6 +158,7 @@ export const projects = [
     tags: ["Node.js", "Express", "Mongoose", "MongoDB"],
     demo: null,
     github: "https://github.com/Lord-Zylen/nodejs-week3",
+    preview: "/previews/nodejs-rest-api.jpg",
     accent: "from-rose-500/30 to-red-900/40",
   },
 ];
