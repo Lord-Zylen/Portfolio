@@ -82,6 +82,24 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Sika AI",
+    description:
+      "An agentic RAG financial assistant for Ghana's formal and informal economy — Groq-hosted Llama 3.3, local embeddings, ChromaDB, DuckDuckGo search, and a Streamlit chat UI.",
+    tags: ["Python", "RAG", "Groq", "ChromaDB", "Streamlit"],
+    demo: null,
+    github: "https://github.com/Lord-Zylen/Sika-AI",
+    accent: "from-emerald-500/30 to-green-900/40",
+  },
+  {
+    title: "SmartBiz AI",
+    description:
+      "An AI-powered business management platform for SMEs in Ghana — inventory, sales, expenses, customers, suppliers, and a LangGraph AI consultant that analyzes your business data and gives recommendations.",
+    tags: ["React", "FastAPI", "MongoDB", "LangGraph", "Firebase"],
+    demo: null,
+    github: "https://github.com/Lord-Zylen/SmartBiz",
+    accent: "from-teal-500/30 to-cyan-900/40",
+  },
+  {
     title: "Plant Scheduler",
     description:
       "A plant-care dashboard with a landing page, calendar view, task charts, and a form to schedule plant care tasks — all powered by React context.",
