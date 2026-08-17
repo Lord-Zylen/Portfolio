@@ -62,7 +62,9 @@ export default function Hero() {
         </div>
 
         <ul className="mt-12 flex items-center gap-6">
-          {socials.map((social) => (
+          {socials
+            .filter((social) => social.href)
+            .map((social) => (
             <li key={social.label}>
               <a
                 href={social.href}

@@ -17,8 +17,8 @@ export const profile = {
     phone: "0249408234",
     location: "Techiman, Bono East Region, Ghana",
     github: "https://github.com/Lord-Zylen",
-    linkedin: "https://linkedin.com/in/alex",
-    twitter: "https://x.com/alex",
+    linkedin: "",
+    twitter: "",
   },
 };
 
