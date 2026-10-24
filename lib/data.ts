@@ -13,14 +13,15 @@ export const profile = {
     { value: "15+", label: "Projects built" },
   ],
   links: {
-    email: "alex.oseisarpong@yahoo.com",
-    phone: "0249408234",
+    email: "alexoseisarpong@gmail.com",
+    phone: "+233 24 940 8234",
     location: "Techiman, Bono East Region, Ghana",
     github: "https://github.com/Lord-Zylen",
     linkedin: "",
     twitter: "",
   },
 };
+
 
 export const skills = [
   {
@@ -31,17 +32,71 @@ export const skills = [
       "JavaScript",
       "HTML",
       "CSS",
-      "Tailwind",
+      "Tailwind CSS",
       "shadcn/ui",
+      "Zustand",
+      "React Context API",
+      "Responsive Web Design",
     ],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "MongoDB", "Mongoose", "Firebase", "REST APIs"],
+    items: [
+      "Node.js",
+      "Express.js",
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "API Integration",
+    ],
+  },
+  {
+    category: "Databases",
+    items: [
+      "MongoDB",
+      "Mongoose",
+      "Firebase",
+      "Cloud Firestore",
+      "ChromaDB",
+    ],
+  },
+  {
+    category: "AI & Machine Learning",
+    items: [
+      "Artificial Intelligence",
+      "Generative AI",
+      "LLM Integration",
+      "Retrieval-Augmented Generation (RAG)",
+      "AI Agents",
+      "LangGraph",
+      "Vector Embeddings",
+      "Groq API",
+    ],
+  },
+  {
+    category: "Tools & Platforms",
+    items: [
+      "Git",
+      "GitHub",
+      "Linux",
+      "Ubuntu",
+      "Docker",
+      "Visual Studio Code",
+      "Vercel",
+      "Render",
+      "Streamlit",
+    ],
   },
   {
     category: "Tools & More",
-    items: ["Python", "AI", "Git", "MS Office", "Photoshop", "CorelDRAW"],
+    items: [
+      "Microsoft Office",
+      "Adobe Photoshop",
+      "CorelDRAW",
+      "Technical Troubleshooting",
+      "Application Debugging",
+      "System Integration",
+    ],
   },
 ];
 
